@@ -23,8 +23,7 @@ export const ProductCard: React.FC<{ product: ProductsTypes }> = ({
       </section>
       <p>{product.description}</p>
       <button
-        onClick={() => {
-          toast.success("Produto adicionado");
+        onClick={() => 
           dispatch(setProductsInCart(product));
           dispatch(setIncrementPrice(Number(product.price)));
         }}
