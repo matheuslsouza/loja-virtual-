@@ -1,9 +1,11 @@
 ## Desafio técnico oferecido pela empresa <a href="https://www.mkssistemas.com.br/" target="_blank">MKS Desenvolvimento de Sistemas</a>
 
 ## Diretrizes do desafio
+
 O objetivo principal desse teste é avaliar sua capacidade de escrever código limpo, bem testado e reutilizável. Ao terminar, faça o deploy da aplicação e mande-nos o link.
 
 ## Tarefa (funcional)
+
 Para esse desafio, você deve consumir nossa API REST de produtos para exibir a lista de produtos da loja.
 
 A aplicação deve conter apenas uma página/rota e um carrinho.

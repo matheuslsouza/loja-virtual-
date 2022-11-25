@@ -1,5 +1,5 @@
-import { LoadingItem } from './CardSkeleton';
-import { SkeletonGroup } from '../styles/Skeleton/itemsSkeleton';
+import { LoadingItem } from "./CardSkeleton";
+import { SkeletonGroup } from "../styles/Skeleton/itemsSkeleton";
 
 export const LoadingPanel: React.FC = () => {
   return (
@@ -13,6 +13,5 @@ export const LoadingPanel: React.FC = () => {
       <LoadingItem />
       <LoadingItem />
     </SkeletonGroup>
-    
   );
 };
